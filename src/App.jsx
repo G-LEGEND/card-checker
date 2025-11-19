@@ -127,8 +127,8 @@ ______
                 CARD
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-gray-900 mb-1">Card Balance Checker</h1>
-                <p className="text-gray-600 text-sm">Secure and Professional Balance Verification</p>
+                <h1 className="text-2xl font-bold text-gray-900 mb-1">Fast Card Checker</h1>
+                <p className="text-gray-600 text-sm">Quick and Secure Balance Check</p>
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@ ______
             {/* Sidebar */}
             <aside className="w-full lg:w-64 bg-white rounded-lg shadow p-4 border border-gray-200">
               <h2 className="text-lg font-bold text-gray-900 mb-4 pb-3 border-b border-gray-200">Select Card Type</h2>
-              <p className="text-xs text-gray-600 mb-4">Choose a card to check balance:</p>
+              <p className="text-xs text-gray-600 mb-4">Choose a card to check:</p>
               <ul className="space-y-2">
                 {cards.map((card) => (
                   <li 
@@ -156,38 +156,36 @@ ______
 
             {/* Main Content */}
             <main className="flex-1">
-              <div className="bg-white rounded-lg shadow p-8 text-center border border-gray-200">
+              <div className="bg-white rounded-lg shadow p-6 text-center border border-gray-200">
                 <div className="max-w-2xl mx-auto">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Welcome to Professional Card Services</h2>
+                  <h2 className="text-xl font-bold text-gray-900 mb-4">Fast Card Balance Check</h2>
                   <p className="text-gray-600 text-sm mb-6 leading-relaxed">
-                    Select a card type from the sidebar to check your card or gift card balance. 
-                    Our secure system ensures your information is protected with enterprise-grade security.
+                    Select a card type to quickly check your balance. Fast and secure verification.
                   </p>
                   
                   <div className="grid md:grid-cols-2 gap-4 mb-6">
                     <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
-                      <h3 className="font-semibold text-blue-900 mb-2 text-sm">Security Features</h3>
+                      <h3 className="font-semibold text-blue-900 mb-2 text-sm">Quick & Easy</h3>
                       <ul className="text-xs text-blue-800 space-y-1 text-left">
-                        <li>• End-to-end encryption</li>
-                        <li>• Secure data transmission</li>
-                        <li>• Professional-grade protection</li>
+                        <li>• Fast verification</li>
+                        <li>• Simple process</li>
+                        <li>• Instant results</li>
                       </ul>
                     </div>
                     <div className="bg-green-50 rounded-lg p-4 border border-green-200">
                       <h3 className="font-semibold text-green-900 mb-2 text-sm">Supported Cards</h3>
                       <ul className="text-xs text-green-800 space-y-1 text-left">
-                        <li>• Credit & Debit Cards</li>
+                        <li>• Credit Cards</li>
+                        <li>• Debit Cards</li>
                         <li>• Gift Cards</li>
-                        <li>• Digital Wallets</li>
                       </ul>
                     </div>
                   </div>
 
                   <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-                    <h4 className="font-semibold text-yellow-900 mb-2 text-sm">Important Notice</h4>
+                    <h4 className="font-semibold text-yellow-900 mb-2 text-sm">Note</h4>
                     <p className="text-xs text-yellow-800">
-                      If balance check fails multiple times, please wait 30 minutes before trying again. 
-                      This ensures system security and prevents unauthorized access attempts.
+                      If check fails, wait 30 minutes before trying again.
                     </p>
                   </div>
                 </div>
@@ -197,8 +195,8 @@ ______
 
           {/* Copyright Footer */}
           <footer className="text-center text-gray-500 text-xs mt-12 py-4 border-t border-gray-200">
-            <p>© 2021 Professional Card Services</p>
-            <p className="mt-1">All Rights Reserved. Secure Balance Verification System</p>
+            <p>© 2021 Fast Card Checker</p>
+            <p className="mt-1">All Rights Reserved.</p>
           </footer>
         </div>
       </div>
@@ -215,8 +213,8 @@ ______
               CARD
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Professional Card Services</h1>
-              <p className="text-gray-600 text-sm">Secure Balance Verification</p>
+              <h1 className="text-xl font-bold text-gray-900">Fast Card Checker</h1>
+              <p className="text-gray-600 text-sm">Quick Balance Check</p>
             </div>
           </div>
           <div className="flex justify-center gap-3">
@@ -224,7 +222,7 @@ ______
               onClick={() => setSelected(null)}
               className="px-4 py-2 text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-gray-50 hover:border-gray-400 transition-all duration-200 text-sm font-medium"
             >
-              ← Back to Card Selection
+              ← Back to Cards
             </button>
           </div>
         </div>
@@ -233,7 +231,7 @@ ______
           {/* Sidebar */}
           <aside className="w-full lg:w-64 bg-white rounded-lg shadow p-4 border border-gray-200">
             <h2 className="text-lg font-bold text-gray-900 mb-4 pb-3 border-b border-gray-200">Available Cards</h2>
-            <p className="text-xs text-gray-600 mb-4">Choose another card type:</p>
+            <p className="text-xs text-gray-600 mb-4">Choose another card:</p>
             <ul className="space-y-2">
               {cards.map((card) => (
                 <li 
@@ -265,15 +263,15 @@ ______
                    selected === 'Xbox' ? 'XBOX' : 'GIFT'}
                 </div>
                 <div>
-                  <h1 className="text-lg font-bold text-gray-900">{selected} Balance Verification</h1>
-                  <p className="text-gray-600 text-sm">Enter your card details for secure balance check</p>
+                  <h1 className="text-lg font-bold text-gray-900">{selected} Balance Check</h1>
+                  <p className="text-gray-600 text-sm">Enter card details to check balance</p>
                 </div>
               </div>
 
               <form onSubmit={handleCheck}>
                 <div className="mb-4">
                   <label className="block text-sm font-semibold mb-2 text-gray-800">
-                    {selected} {isPaymentCard ? 'Card Number' : 'Gift Card Code'}
+                    {selected} {isPaymentCard ? 'Card Number' : 'Code'}
                   </label>
                   <input
                     type="text"
@@ -282,78 +280,76 @@ ______
                     placeholder={
                       isPaymentCard 
                         ? '1234 5678 9012 3456' 
-                        : `Enter ${selected} gift card code...`
+                        : `Enter ${selected} code...`
                     }
                     className="w-full p-3 border border-gray-300 rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 text-sm"
                     disabled={loading}
                   />
                   <p className="text-xs text-gray-500 mt-1">
                     {isPaymentCard 
-                      ? 'Enter 12-19 digit card number' 
-                      : 'Enter your gift card redemption code'
+                      ? 'Enter card number' 
+                      : 'Enter gift card code'
                     }
                   </p>
                 </div>
 
                 {isPaymentCard && (
-                  <>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                      <div>
-                        <label className="block text-sm font-semibold mb-2 text-gray-800">Security Code (CVV)</label>
-                        <input
-                          type="text"
-                          value={cvv}
-                          onChange={(e) => setCvv(e.target.value)}
-                          placeholder="123"
-                          maxLength="4"
-                          className="w-full p-3 border border-gray-300 rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 text-sm"
-                          disabled={loading}
-                        />
-                        <p className="text-xs text-gray-500 mt-1">3-4 digit security code</p>
-                      </div>
-                      <div>
-                        <label className="block text-sm font-semibold mb-2 text-gray-800">Expiration Date</label>
-                        <input
-                          type="text"
-                          value={expiry}
-                          onChange={(e) => setExpiry(e.target.value)}
-                          placeholder="MM/YYYY"
-                          className="w-full p-3 border border-gray-300 rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 text-sm"
-                          disabled={loading}
-                        />
-                        <p className="text-xs text-gray-500 mt-1">Month and year (MM/YYYY)</p>
-                      </div>
+                  <div className="grid grid-cols-2 gap-3 mb-4">
+                    <div>
+                      <label className="block text-sm font-semibold mb-2 text-gray-800">CVV</label>
+                      <input
+                        type="text"
+                        value={cvv}
+                        onChange={(e) => setCvv(e.target.value)}
+                        placeholder="123"
+                        maxLength="4"
+                        className="w-full p-3 border border-gray-300 rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 text-sm"
+                        disabled={loading}
+                      />
+                      <p className="text-xs text-gray-500 mt-1">Security code</p>
                     </div>
-                  </>
+                    <div>
+                      <label className="block text-sm font-semibold mb-2 text-gray-800">Expiry</label>
+                      <input
+                        type="text"
+                        value={expiry}
+                        onChange={(e) => setExpiry(e.target.value)}
+                        placeholder="MM/YYYY"
+                        className="w-full p-3 border border-gray-300 rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 text-sm"
+                        disabled={loading}
+                      />
+                      <p className="text-xs text-gray-500 mt-1">MM/YYYY</p>
+                    </div>
+                  </div>
                 )}
 
-                <div className="flex gap-3 mb-4">
+                <div className="flex gap-2 mb-4">
                   <button 
                     type="submit"
                     disabled={loading}
-                    className="flex-1 px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-lg hover:from-blue-700 hover:to-blue-900 transition-all duration-200 font-semibold text-sm shadow disabled:from-blue-400 disabled:to-blue-600 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                    className="flex-1 px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-lg hover:from-blue-700 hover:to-blue-900 transition-all duration-200 font-semibold text-sm shadow disabled:from-blue-400 disabled:to-blue-600 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                   >
                     {loading ? (
                       <>
-                        <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                        Processing Balance Check...
+                        <div className="w-3 h-3 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+                        Checking...
                       </>
                     ) : (
-                      `Verify ${selected} Balance`
+                      `Check ${selected}`
                     )}
                   </button>
                   <button 
                     type="button"
                     onClick={clearForm}
                     disabled={loading}
-                    className="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 hover:border-gray-400 transition-all duration-200 font-medium text-sm disabled:opacity-50"
+                    className="px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 hover:border-gray-400 transition-all duration-200 font-medium text-sm disabled:opacity-50"
                   >
-                    Clear Form
+                    Clear
                   </button>
                 </div>
 
                 {result && (
-                  <div className={`p-4 rounded-lg border ${
+                  <div className={`p-3 rounded-lg border ${
                     result.ok 
                       ? 'bg-green-50 border-green-200' 
                       : 'bg-red-50 border-red-200'
@@ -376,20 +372,20 @@ ______
             </div>
 
             {/* Instructions */}
-            <div className="mt-6 p-4 bg-gray-50 border border-gray-200 rounded-lg">
-              <h3 className="font-bold text-gray-900 mb-3 text-sm">Verification Instructions</h3>
-              <ol className="text-gray-700 space-y-2 text-left text-xs">
+            <div className="mt-6 p-3 bg-gray-50 border border-gray-200 rounded-lg">
+              <h3 className="font-bold text-gray-900 mb-2 text-sm">How to Check</h3>
+              <ol className="text-gray-700 space-y-1 text-left text-xs">
                 <li className="flex items-start">
-                  <span className="bg-blue-100 text-blue-800 rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-2 flex-shrink-0">1</span>
-                  <span>Select your card type from the available options</span>
+                  <span className="bg-blue-100 text-blue-800 rounded-full w-4 h-4 flex items-center justify-center text-xs font-bold mr-2 flex-shrink-0">1</span>
+                  <span>Select card type</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="bg-blue-100 text-blue-800 rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-2 flex-shrink-0">2</span>
-                  <span>Input your card details in the secure form</span>
+                  <span className="bg-blue-100 text-blue-800 rounded-full w-4 h-4 flex items-center justify-center text-xs font-bold mr-2 flex-shrink-0">2</span>
+                  <span>Enter card details</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="bg-blue-100 text-blue-800 rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold mr-2 flex-shrink-0">3</span>
-                  <span>Click the verify button to check your balance</span>
+                  <span className="bg-blue-100 text-blue-800 rounded-full w-4 h-4 flex items-center justify-center text-xs font-bold mr-2 flex-shrink-0">3</span>
+                  <span>Click check button</span>
                 </li>
               </ol>
             </div>
@@ -398,8 +394,8 @@ ______
 
         {/* Copyright Footer */}
         <footer className="text-center text-gray-500 text-xs mt-8 py-4 border-t border-gray-200">
-          <p>© 2021 Professional Card Services</p>
-          <p className="mt-1">All Rights Reserved. Secure Balance Verification System</p>
+          <p>© 2021 Fast Card Checker</p>
+          <p className="mt-1">All Rights Reserved.</p>
         </footer>
       </div>
     </div>

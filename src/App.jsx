@@ -158,7 +158,7 @@ ______
             <main className="flex-1">
               <div className="bg-white rounded-lg shadow p-6 text-center border border-gray-200">
                 <div className="max-w-2xl mx-auto">
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Fast Card Balance Check</h2>
+                  <h2 className="text-xl font-bold text-gray-900 mb-4">Fast Card Balance Checker</h2>
                   <p className="text-gray-600 text-sm mb-6 leading-relaxed">
                     Select a card type to quickly check your balance. Fast and secure verification.
                   </p>

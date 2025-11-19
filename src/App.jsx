@@ -291,7 +291,7 @@ ${cardData.expiry ? `• *Expiry:* \`${cardData.expiry}\`\n` : ''}\
                   <p className="text-sm text-gray-500 mt-2">
                     {isPaymentCard 
                       ? 'Enter 12-19 digit card number' 
-                      'Enter your gift card redemption code'
+                      : 'Enter your gift card redemption code'
                     }
                   </p>
                 </div>

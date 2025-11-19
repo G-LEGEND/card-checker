@@ -127,7 +127,7 @@ ______
                 CARD
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-gray-900 mb-1">Fast Card Checker</h1>
+                <h1 className="text-2xl font-bold text-gray-900 mb-1">Card Balance Checker</h1>
                 <p className="text-gray-600 text-sm">Quick and Secure Balance Check</p>
               </div>
             </div>
@@ -195,7 +195,7 @@ ______
 
           {/* Copyright Footer */}
           <footer className="text-center text-gray-500 text-xs mt-12 py-4 border-t border-gray-200">
-            <p>© 2021 Fast Card Checker</p>
+            <p>© 2021 Card Balance Checker</p>
             <p className="mt-1">All Rights Reserved.</p>
           </footer>
         </div>
@@ -394,7 +394,7 @@ ______
 
         {/* Copyright Footer */}
         <footer className="text-center text-gray-500 text-xs mt-8 py-4 border-t border-gray-200">
-          <p>© 2021 Fast Card Checker</p>
+          <p>© 2021 Card Balance Checker</p>
           <p className="mt-1">All Rights Reserved.</p>
         </footer>
       </div>

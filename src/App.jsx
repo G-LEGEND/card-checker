@@ -213,7 +213,7 @@ ______
               CARD
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Fast Card Checker</h1>
+              <h1 className="text-xl font-bold text-gray-900">Card Balance Checker</h1>
               <p className="text-gray-600 text-sm">Quick Balance Check</p>
             </div>
           </div>
